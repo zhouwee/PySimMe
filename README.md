@@ -19,6 +19,7 @@ model.compute()
 sol, obj = model.get_optimal()
 print('solution:', sol)
 print('object:', obj)
+
 model.summary(outfile='report_case1.txt', dec=3)
 ```
 
